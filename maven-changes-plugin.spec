@@ -1,6 +1,6 @@
 Name:           maven-changes-plugin
 Version:        2.4
-Release:        1
+Release:        3
 Summary:        Plugin to support reporting of changes between releases
 
 Group:          Development/Java
