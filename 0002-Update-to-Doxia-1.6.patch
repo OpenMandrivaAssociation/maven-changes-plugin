@@ -1,0 +1,46 @@
+From 29d76b6f385918446b0b680b97fd6bb275960d91 Mon Sep 17 00:00:00 2001
+From: Mikolaj Izdebski <mizdebsk@redhat.com>
+Date: Mon, 4 Aug 2014 11:54:55 +0200
+Subject: [PATCH 2/2] Update to Doxia 1.6
+
+---
+ pom.xml                                                               | 4 ++--
+ .../java/org/apache/maven/plugin/changes/AbstractChangesReport.java   | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/pom.xml b/pom.xml
+index 02f08da..7d68cb2 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -60,8 +60,8 @@ under the License.
+   </issueManagement>
+ 
+   <properties>
+-    <doxiaVersion>1.2</doxiaVersion>
+-    <doxiaSitetoolsVersion>1.2</doxiaSitetoolsVersion>
++    <doxiaVersion>1.6</doxiaVersion>
++    <doxiaSitetoolsVersion>1.6</doxiaSitetoolsVersion>
+     <mavenVersion>2.2.1</mavenVersion>
+     <sitePluginVersion>3.1</sitePluginVersion>
+     <mavenPluginPluginVersion>3.1</mavenPluginPluginVersion>
+diff --git a/src/main/java/org/apache/maven/plugin/changes/AbstractChangesReport.java b/src/main/java/org/apache/maven/plugin/changes/AbstractChangesReport.java
+index 8f23a22..e7a19ec 100644
+--- a/src/main/java/org/apache/maven/plugin/changes/AbstractChangesReport.java
++++ b/src/main/java/org/apache/maven/plugin/changes/AbstractChangesReport.java
+@@ -28,12 +28,12 @@ import org.apache.maven.artifact.resolver.ArtifactResolutionException;
+ import org.apache.maven.artifact.resolver.ArtifactResolver;
+ import org.apache.maven.artifact.versioning.InvalidVersionSpecificationException;
+ import org.apache.maven.artifact.versioning.VersionRange;
+-import org.apache.maven.doxia.sink.render.RenderingContext;
+ import org.apache.maven.doxia.site.decoration.Body;
+ import org.apache.maven.doxia.site.decoration.DecorationModel;
+ import org.apache.maven.doxia.site.decoration.Skin;
+ import org.apache.maven.doxia.siterenderer.Renderer;
+ import org.apache.maven.doxia.siterenderer.RendererException;
++import org.apache.maven.doxia.siterenderer.RenderingContext;
+ import org.apache.maven.doxia.siterenderer.SiteRenderingContext;
+ import org.apache.maven.doxia.siterenderer.sink.SiteRendererSink;
+ import org.apache.maven.plugin.MojoExecutionException;
+-- 
+1.9.3
+
