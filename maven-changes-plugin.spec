@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           maven-changes-plugin
 Version:        2.8
-Release:        9.0
+Release:        9.1
 Summary:        Plugin to support reporting of changes between releases
 
 
