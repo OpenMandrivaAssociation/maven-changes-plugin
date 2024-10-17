@@ -6,7 +6,7 @@ Summary:        Plugin to support reporting of changes between releases
 
 
 License:        ASL 2.0
-URL:            http://maven.apache.org/plugins/%{name}
+URL:            https://maven.apache.org/plugins/%{name}
 Source0:        http://repo2.maven.org/maven2/org/apache/maven/plugins/%{name}/%{version}/%{name}-%{version}-source-release.zip
 Patch0:         0001-Remove-dependency-on-velocity-tools.patch
 Patch1:		0002-Update-to-Doxia-1.6.patch
